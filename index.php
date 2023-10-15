@@ -14,6 +14,7 @@ $db = new Database(
     $credentials['username'],
     $credentials['password']
 );
+?>
 
 <?php include 'header.php'; ?>
 
