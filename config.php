@@ -13,3 +13,4 @@ define('DB_CLASS_PATH', PROJECT_ROOT . '/Database.php');
 // Other configuration settings
 // ...
 
+?>
