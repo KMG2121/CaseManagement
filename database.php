@@ -1,6 +1,5 @@
 <?php
-// Include the connection file
-require_once(DB_CONNECTION_PATH);
+// Database.php
 
 // Define the Database class
 class Database {
@@ -12,12 +11,11 @@ class Database {
     private $conn;
 
     // Constructor method to establish database connection
-    public function __construct() {
-        // Assign global variables from connection.php to class properties
-        $this->host = $GLOBALS['host'];
-        $this->db_name = $GLOBALS['db_name'];
-        $this->username = $GLOBALS['username'];
-        $this->password = $GLOBALS['password'];
+    public function __construct($host, $db_name, $username, $password) {
+        $this->host = $host;
+        $this->db_name = $db_name;
+        $this->username = $username;
+        $this->password = $password;
 
         // Try to establish a database connection
         try {
