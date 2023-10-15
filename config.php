@@ -12,13 +12,12 @@ if ($environment == 'local') {
     // Local path
     define('DB_CONNECTION_PATH', '/Applications/XAMPP/xamppfiles/htdocs/CaseManagement/connection.php');
 } else {
-    // Server path
-    define('DB_CONNECTION_PATH', '/u109918981.kenneth-graham.com@casedx.com/public_html/CaseManagement/database.php/connection.php');
+     // Server path
+     define('DB_CONNECTION_PATH', '/home/u109918981/domains/kenneth-graham.com/connection.php');
 }
 
 // Path to Database class file
-define('DB_CLASS_PATH',  'u109918981.kenneth-graham.com@casedx.com/public_html/CaseManagement/database.php');
-
+define('DB_CLASS_PATH', PROJECT_ROOT . '/Database.php');
 // Other configuration settings
 // ...
 
