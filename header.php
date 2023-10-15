@@ -13,7 +13,7 @@
 </head>
 <body>
 
-<?php include '/home/u109918981_Scorebook5734/connection.php'; ?>
+
 
 <!-- Navbar -->
 <nav class="navbar navbar-expand-lg navbar-dark">

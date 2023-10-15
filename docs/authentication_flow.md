@@ -1,6 +1,4 @@
-Here's a refined version of your notes for better clarity and presentation in GitHub documentation:
 
----
 
 ### Authentication Flow
 
@@ -42,4 +40,3 @@ Here's a refined version of your notes for better clarity and presentation in Gi
 
 ---
 
-This format presents the flow and database schema in a structured, easy-to-follow manner suitable for GitHub documentation. The tabular representation of the database schema provides a clear, organized view of the data fields and their types.
