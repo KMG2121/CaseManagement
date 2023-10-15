@@ -1,4 +1,11 @@
 <?php 
+
+
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
+
+
 // Include configuration and database files
 require_once('config.php');
 require_once(DB_CONNECTION_PATH);
